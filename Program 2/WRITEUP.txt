@@ -1,0 +1,6 @@
+The program presorts the words in alphabetical order which has the time complexitt of O(nlog(n)). Also, n is the number of words
+that are in the words.txt file.This is because the program first reads n words from the file, which takes O(n) amount of time. 
+Then, it calculates the signature of each word, which takes O(klog(k)) time, where k is the length of the longest word. 
+The program sorts the n signatures, which takes O(nlog(n)) time. 
+It als scans the sorted list to identify records with the same signature, which takes O(n) time. 
+The overall time complexity of the program is O(nlog(n)).
